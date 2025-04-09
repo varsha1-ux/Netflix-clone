@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,   sans-serif;
+}
+body
+{
+    background-color: black;
+}
+
+
+.MainNextlix
+{ /*border: 2px solid red; */
+   /* padding: 0rem 2rem; */
+   
+    
+} 
+.backgroungContainer
+{
+    background-image: url(banner.jpg);
+    filter: blur(16px);
+    height: 100vh;
+    position: relative;
+}  
+.pinkOverlay
+{
+    background-color: rgb(104, 3, 20, 0.404);
+    height: 100%;
+    width: 100%;
+}
+.containContainer
+{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 0rem 2rem;
+
+}
+nav
+{
+  
+    height: 20vh;
+}
+
+
+.upperNav
+{
+  
+    display: flex;
+    height: 50%;
+
+}
+.upperNavleft
+{
+    
+    width: 50%;
+}
+.NetflixLogo
+{
+    width: 29%;
+}
+.upperNavRight
+{
+   
+    width: 50%;
+    
+}
+.navBarButtoncontainer
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    height: 100%;
+
+}
+.lowerNav
+{
+  
+    height: 50%;
+}
+
+.languageButton
+{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: .4rem .8rem;
+    color: white;
+    border-radius: 50px;
+    font-size: 1rem;
+   
+}
+
+.errow
+{
+    width: 10px;
+    margin-left: 7px;
+}
+
+.signInButton
+{
+    background-color: #fff;
+    padding: .4rem .8rem;
+    color: azure;
+    border-radius: 50px;
+    margin-left: 10px; 
+    color: black;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+   
+.lowerNav
+{
+    color: white;
+  
+    height: 50%;
+    display: flex;
+    justify-content: center;
+
+} 
+.menulist
+{
+    
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly; border-radius: 50px;
+    background: rgba(0, 0, 0, .5);
+    box-shadow: 2px 3px 14px rgba(0, 0, 0, .1);
+    height: 7vh;
+
+
+}
+.menulist li{
+   
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.Bannersection
+{
+  
+    height: 90vh;
+    background-image: url(banner.jpg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.overlay
+{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.7), black);
+    border-radius: 20px;
+   
+    
+}
+.bannercontainer{
+   
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bannercontainer h2{
+    font-size: 15px;
+   
+    width: 50%;
+    text-align: center;
+}
+.bannercontainer h4{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+.bannercontainer p{
+    font-size: 1;
+    margin: 20px;
+}
+.inputContainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.emailInputBox{
+    padding:1rem 2rem;
+    border-radius: 50px;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(225,255,255,0.3);
+    width: 60%;
+    color: white;
+    font-size: 1rem;
+}
+.emailInputBox::placeholder{
+    color: white;
+}
+.getStartedButton{
+    width: 30%;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.carouselsection {
+    
+     color: white;
+    
+ }
+ .carouselsection h2
+{
+   
+    margin-left: 5rem;
+    font-size: 2.5rem;
+}
+.carouselCardContainer{
+  
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+ }
+ 
+.carouselImageContainer{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+ 
+}
+.carouselImageContainer  img{
+    width: 100%;
+    border-radius: 20px;
+}
+.carouselCard{
+    width: 12%;
+   
+    height: 35vh;
+    border-radius: 20px;
+    position: relative;
+    
+  }
+.carouselNumberContainer span{
+    color: rgba(0, 0, 0, 0.8);
+    -webkit-text-stroke: 0.125rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+     font-size: 4rem;
+}
+.carouselNumberContainer{
+    position: absolute;
+    left: -20px;
+}
+.Plansection {
+    
+     color: white;
+    
+ }
+ .Plansection h2
+{
+    
+    margin-left: 5rem;
+    font-size: 2.5rem;
+}
+.plansContainer  {
+   
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+ }
+ .planCard{
+ 
+    height: 38vh;
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 2rem 1rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.372);
+    
+ }
+ .planCard1{
+    background: linear-gradient(149deg,#1C4072 6.96%, #172B47 40.17%,
+    #120c1f 73.39% )
+ }
+ .planCard2{
+    background: linear-gradient(149deg,#1D529D 6.96%, #233371 40.17%,
+    #120c1f 73.39% )}
+ .planCard3{
+    background: linear-gradient(149deg,#792A95 6.96%, #38216C 40.17%,
+    #120c1f 73.39% )
+ }
+ .planCard4{
+    background: linear-gradient(149deg,#922556 6.96%, #391945 40.17%,
+    #120c1f 73.39% )
+ }
+
+ .planCard h2{
+    margin-left: 0;
+    font-size: 1.5rem;
+ }
+ .planCard h4{
+    font-size: 1.3rem;
+ }
+ .planCard p{
+    font-size: 1rem;
+ }
+ .ReasonToJoinSection{
+   
+     color: white;
+    
+ }
+ .ReasonToJoinSection h2
+ {
+    
+     margin-left: 5rem;
+     font-size: 2.5rem;
+ }
+ 
+.reasonContainer 
+{
+  
+   height: 100%;
+   width: 90%;
+   display: flex;
+   justify-content: space-evenly;
+   margin: 2rem auto;
+}  
+.reasonCard{
+    
+     height: 38vh;
+     width: 21%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 2rem 2rem 1rem;
+     border-radius: 20px;
+     border: 1px solid rgba(255, 255, 255, 0.372);
+     background: rgb(52,52,52);
+     border: none;
+} 
+.reasonCard h2{
+    font-size:1.3rem;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.reasonCard p{
+    font-size:0.8rem;
+    
+    
+}
+.reasonCardLowerContent{
+    display: flex;
+    justify-content: end;
+}
+
+.reasonCardLowerContent svg{
+    font-size: .5rem;
+    height: 50px;
+    text-align: end;
+}
+.freqSection {
+    
+     color: white;
+    
+ }
+ .freqSection h2
+{
+   
+    margin-left: 5rem;
+    font-size: 2.5rem;
+}
+.freqSectionContainer{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+    
+}
+.freqQuestion{
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: gray;
+    justify-content: space-between;
+   margin-bottom: 20px};
+    
+.Getstartsection{
+    color: white;
+    
+}  
+.GetstartSection
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.GetstartSection p{
+    margin-bottom: 1rem;
+    color: white;
+}
+ 
+
